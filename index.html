@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizz</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
 </head>
-<body>
-    
+<body class="bg-primary">
+    </div>
+    <div class="row shadow mx-auto mb-5 mt-5 bg-light rounded" class = "QUIZZ" style="height: 600px; width: 550px;">
+        <div class="text-dark mt-4  text-center "  id="question">Question place</div>
+
+        <div class=" d-flex flex-column justify-content-center  rounded" id ="answers">
+                <div ></div>
+                <boutton class = "btn btn-outline-info text-dark mt-5 pt-3" style="height: 60px;" class ="btne">1</boutton>
+                <boutton class = "btn btn-outline-info text-dark mt-5 pt-3" style="height: 60px;" class ="btne">2</boutton>
+                <boutton class = "btn btn-outline-info text-dark mt-5 pt-3" style="height: 60px;" class ="btne">3</boutton>
+                <boutton class = "btn btn-outline-info text-dark mt-5 pt-3" style="height: 60px;" class ="btne">4</boutton>
+        </div>
+        <div class="d-flex  justify-content-between mt-2" style="height: 40px;">
+            <div class="btn btn-outline-primary px-1" style="width: 80px;">PREVIOUS</div>
+            <div class="btn btn-primary" style="width: 80px;" id = "NEXT">NEXT</div>
+        </div>
+    </div>
+    <script src = "index.js"></script>
 </body>
 </html>
